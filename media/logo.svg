@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 502.67 190.55">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: Shackleton-Regular, Shackleton;
+        font-size: 158px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #4ea0d8;
+      }
+
+      .cls-3 {
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-1" transform="translate(105.31 134.3)"><tspan x="0" y="0">gni</tspan><tspan class="cls-3" x="234.78" y="0">t</tspan><tspan x="311.73" y="0">e</tspan></text>
+      <g>
+        <rect class="cls-2" x="39.84" y="55.22" width="19" height="72.53"/>
+        <path class="cls-2" d="m2.27,131.32h94.14v10.45c0,1.1-.9,2-2,2H4.27c-1.1,0-2-.9-2-2v-10.45h0Z"/>
+        <path class="cls-2" d="m2,39.27h90.14c1.1,0,2,.9,2,2v10.45H0v-10.45c0-1.1.9-2,2-2Z"/>
+        <path class="cls-2" d="m18.01,24.14h58.11c1.1,0,2,.9,2,2v10.45H16.01v-10.45c0-1.1.9-2,2-2Z"/>
+        <path class="cls-2" d="m16.01,146.44h62.11v10.45c0,1.1-.9,2-2,2H18.01c-1.1,0-2-.9-2-2v-10.45h0Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,76 @@
+
+.nav-links .Membership{
+    color: #4BA1DE !important;
+  }
+
+  
+  .hero {
+      /* background-color: black; */
+    background-image: url("../media/gym_background.png");
+    background-position: center;
+    background-blend-mode: darken;
+    /* opacity: 50%; */
+    padding: 6rem;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+  }
+  
+  .hero-text {
+    /* margin-left: 6rem; */
+    text-align: left;
+    color: #fff;
+    max-width: 800px;
+  }
+  
+  .hero-text h1 {
+    font-size: 48px;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-text p {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-text button{
+      display: inline -block;
+    padding: 0.5rem 1rem;
+    background-color: #4BA1DE;
+    color: #ffffff !important;
+    border: 0;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .main {
+    padding: 2rem;
+  }
+
+
+
+  /* Responsive */
+@media screen and (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .mobile-menu{
+      display: block;
+    }
+  
+    .hero {
+      height: 40vh;
+      padding: 2rem;
+    }
+  
+    .hero-text h1 {
+      font-size: 32px;
+    }
+  
+    .hero-text p {
+      font-size: 16px;
+    }
+  
+  }
