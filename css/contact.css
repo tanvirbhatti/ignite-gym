@@ -74,3 +74,71 @@
     }
   
   }
+
+  .contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  width: 60%;
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+form input,
+form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba(3, 105, 247, 0.18);
+
+
+}
+
+form input[type="submit"] {
+  background-color: #4BA1DE;
+  color: #ffffff;
+  border: 0;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+
+.image-container {
+  width: 35%;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .image-container {
+    display: none;
+  }
+  .contact form {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .contact form {
+    height: 100%;
+  }
+}
